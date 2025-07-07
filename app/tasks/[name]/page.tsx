@@ -1,11 +1,10 @@
 
 
-const page = ({params}) => {
+const page = ({ params }: { params: { name: string } }) => {
+  const { name } = params
 
-    const {name}=params
-  return (
-    <div>tasks by {name}</div>
-  )
+  return <div>tasks by {name}</div>
 }
 
 export default page
+
