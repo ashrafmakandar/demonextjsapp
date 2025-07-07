@@ -1,15 +1,9 @@
-import { FC } from 'react'
+import React from 'react'
 
-interface PageProps {
-  params: {
-    name: string
-  }
+const page = () => {
+  return (
+    <div>page</div>
+  )
 }
 
-const Page: FC<PageProps> = ({ params }) => {
-  const { name } = params
-
-  return <div>Tasks by {name}</div>
-}
-
-export default Page
+export default page
