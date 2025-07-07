@@ -19,7 +19,7 @@ const images = [
 ]
 
 export default function BirthdaySlider() {
-  const audioRef = useRef(null)
+  const audioRef = useRef<HTMLAudioElement>(null)
   const [playing, setPlaying] = useState(false)
   const [confettiActive, setConfettiActive] = useState(true)
   const [width, height] = useWindowSize()
