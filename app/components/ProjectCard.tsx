@@ -1,6 +1,6 @@
 
 
-export default function ProjectCard({ title, link }) {
+export default function ProjectCard({ title, link }: { title: string; link: string }) {
   return (
     <div className="p-5 bg-white shadow-lg rounded-xl border hover:shadow-xl transition-shadow duration-300">
       <h3 className="text-lg font-semibold mb-1">{title}</h3>
