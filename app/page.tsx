@@ -1,7 +1,7 @@
 import Header from './components/Header'
 import Section from './components/Section'
 import ProjectCard from './components/ProjectCard'
-import NavBar from './NavBar'
+
 
 export default function Home() {
   return (
@@ -102,7 +102,7 @@ export default function Home() {
           </div>
            
         </Section>
-           <NavBar/>
+         
       </div>
     </div>
   )
