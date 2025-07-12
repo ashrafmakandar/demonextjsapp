@@ -49,7 +49,7 @@ export default function Home() {
                 company: 'Kalyani Motors',
                 duration: 'Mar 2020 – Apr 2021',
                 details:
-                  'Health screening and service apps using Retrofit and Flutter for iOS deployment.',
+                  'Health screening and service apps using Retrofit and Flutter for android deployment.',
               },
               {
                 role: 'Android Developer',
@@ -83,18 +83,16 @@ export default function Home() {
 
         <Section title="Highlighted Projects">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <ProjectCard
-              title="Kalyani Health App"
-              link="https://play.google.com/store/apps/details?id=com.kalyani_motors.health"
+                <ProjectCard
+              title="Koovers DMS App"
+              link="https://play.google.com/store/apps/details?id=com.krsv.kdms"
             />
+       
             <ProjectCard
               title="NumeroFacts"
               link="https://www.appbrain.com/app/number-facts/com.ashraf.ashraf.factonumero"
             />
-            <ProjectCard
-              title="Roll Me – Short Video App"
-              link="https://play.google.com/store/apps/details?id=com.autoforce.rollme"
-            />
+        
             <ProjectCard
               title="Autoforce Laps"
               link="https://play.google.com/store/apps/details?id=com.gps.core.autoforce"
